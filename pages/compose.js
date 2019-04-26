@@ -8,6 +8,8 @@ const add4 = add(4)
 
 // arg: ...functions
 // return: ComponentEnhancer
+// 合繊関数: HoF
+// 合成コンポーネント: 
 const result = compose(add4, add2)(2)
 
 export default () => <p>{result}</p>
